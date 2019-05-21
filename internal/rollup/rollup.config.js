@@ -193,7 +193,39 @@ const config = {
     commonjs({
       namedExports: {
         'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/type/index.js': [
-          'GraphQLSchema', 'GraphQLScalarType', 'GraphQLObjectType', 'GraphQLInterfaceType', 'GraphQLUnionType', 'GraphQLEnumType', 'GraphQLInputObjectType', 'GraphQLList', 'GraphQLNonNull', 'GraphQLDirective', 'TypeKind', 'specifiedScalarTypes', 'GraphQLInt', 'GraphQLFloat', 'GraphQLString', 'GraphQLBoolean', 'GraphQLID', 'specifiedDirectives', 'GraphQLIncludeDirective', 'GraphQLSkipDirective', 'GraphQLDeprecatedDirective', 'SchemaMetaFieldDef', 'TypeMetaFieldDef', 'TypeNameMetaFieldDef', 'introspectionTypes', 'DEFAULT_DEPRECATION_REASON', '__Schema', '__Directive', '__DirectiveLocation', '__Type', '__Field', '__InputValue', '__EnumValue', '__TypeKind', 'isSchema', 'isDirective', 'isType', 'isScalarType', 'isObjectType', 'isInterfaceType', 'isUnionType', 'isEnumType', 'isInputObjectType', 'isListType', 'isNonNullType', 'isInputType', 'isOutputType', 'isLeafType', 'isCompositeType', 'isAbstractType', 'isWrappingType', 'isNullableType', 'isNamedType', 'isSpecifiedScalarType', 'isIntrospectionType', 'isSpecifiedDirective', 'assertType', 'assertScalarType', 'assertObjectType', 'assertInterfaceType', 'assertUnionType', 'assertEnumType', 'assertInputObjectType', 'assertListType', 'assertNonNullType', 'assertInputType', 'assertOutputType', 'assertLeafType', 'assertCompositeType', 'assertAbstractType', 'assertWrappingType', 'assertNullableType', 'assertNamedType', 'getNullableType', 'getNamedType', 'validateSchema', 'assertValidSchema', 'Source', 'getLocation', 'parse', 'parseValue', 'parseType', 'print', 'visit', 'visitInParallel', 'visitWithTypeInfo', 'getVisitFn', 'Kind', 'TokenKind', 'DirectiveLocation', 'BREAK', 'execute', 'defaultFieldResolver', 'responsePathAsArray', 'getDirectiveValues', 'subscribe', 'createSourceEventStream', 'GraphQLError', 'formatError', 'printError', 'getIntrospectionQuery', 'introspectionQuery', 'getOperationAST', 'introspectionFromSchema', 'buildClientSchema', 'buildASTSchema', 'buildSchema', 'getDescription', 'extendSchema', 'lexicographicSortSchema', 'printSchema', 'printIntrospectionSchema', 'printType', 'typeFromAST', 'valueFromAST', 'valueFromASTUntyped', 'astFromValue', 'TypeInfo', 'coerceValue', 'isValidJSValue', 'isValidLiteralValue', 'concatAST', 'separateOperations', 'isEqualType', 'isTypeSubTypeOf', 'doTypesOverlap', 'assertValidName', 'isValidNameError', 'findBreakingChanges'
+          'GraphQLSchema', 'GraphQLScalarType', 'GraphQLObjectType', 'GraphQLInterfaceType', 'GraphQLUnionType', 'GraphQLEnumType', 'GraphQLInputObjectType', 'GraphQLList', 'GraphQLNonNull', 'GraphQLDirective', 'TypeKind', 'specifiedScalarTypes', 'GraphQLInt', 'GraphQLFloat', 'GraphQLString', 'GraphQLBoolean', 'GraphQLID', 'specifiedDirectives', 'GraphQLIncludeDirective', 'GraphQLSkipDirective', 'GraphQLDeprecatedDirective', 'SchemaMetaFieldDef', 'TypeMetaFieldDef', 'TypeNameMetaFieldDef', 'introspectionTypes', 'DEFAULT_DEPRECATION_REASON', '__Schema', '__Directive', '__DirectiveLocation', '__Type', '__Field', '__InputValue', '__EnumValue', '__TypeKind', 'isSchema', 'isDirective', 'isType', 'isScalarType', 'isObjectType', 'isInterfaceType', 'isUnionType', 'isEnumType', 'isInputObjectType', 'isListType', 'isNonNullType', 'isInputType', 'isOutputType', 'isLeafType', 'isCompositeType', 'isAbstractType', 'isWrappingType', 'isNullableType', 'isNamedType', 'isSpecifiedScalarType', 'isIntrospectionType', 'isSpecifiedDirective', 'assertType', 'assertScalarType', 'assertObjectType', 'assertInterfaceType', 'assertUnionType', 'assertEnumType', 'assertInputObjectType', 'assertListType', 'assertNonNullType', 'assertInputType', 'assertOutputType', 'assertLeafType', 'assertCompositeType', 'assertAbstractType', 'assertWrappingType', 'assertNullableType', 'assertNamedType', 'getNullableType', 'getNamedType', 'validateSchema', 'assertValidSchema', 'Source', 'getLocation', 'parse', 'parseValue', 'parseType', 'print', 'visit', 'visitInParallel', 'visitWithTypeInfo', 'getVisitFn', 'Kind', 'TokenKind', 'DirectiveLocation', 'BREAK', 'execute', 'defaultFieldResolver', 'responsePathAsArray', 'getDirectiveValues', 'subscribe', 'createSourceEventStream', 'GraphQLError', 'formatError', 'printError', 'getIntrospectionQuery', 'introspectionQuery', 'getOperationAST', 'introspectionFromSchema', 'buildClientSchema', 'buildASTSchema', 'buildSchema', 'getDescription', 'extendSchema', 'lexicographicSortSchema', 'printSchema', 'printIntrospectionSchema', 'printType', 'typeFromAST', 'valueFromAST', 'valueFromASTUntyped', 'astFromValue', 'TypeInfo', 'coerceValue', 'isValidJSValue', 'isValidLiteralValue', 'concatAST', 'separateOperations', 'isEqualType', 'isTypeSubTypeOf', 'doTypesOverlap', 'assertValidName', 'isValidNameError', 'findBreakingChanges', 'isRequiredArgument', 'isRequiredInputField', 'assertSchema',
+          'assertDirective'
+        ],
+        'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/language/index.js': [
+          'Source', 'getLocation', 'parse', 'parseValue', 'parseType', 'print', 'visit', 'visitInParallel', 'visitWithTypeInfo', 'getVisitFn',
+          'Kind', 'TokenKind', 'DirectiveLocation', 'BREAK', 'createLexer', 'isDefinitionNode', 'isExecutableDefinitionNode', 'isSelectionNode',
+          'isValueNode', 'isTypeNode', 'isTypeSystemDefinitionNode', 'isTypeDefinitionNode', 'isTypeSystemExtensionNode', 'isTypeExtensionNode'
+        ],
+        'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/execution/index.js': [
+          'execute', 'defaultFieldResolver', 'defaultTypeResolver', 'responsePathAsArray', 'getDirectiveValues'
+        ],
+        'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/subscription/index.js': [
+          'subscribe', 'createSourceEventStream'
+        ],
+        'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/validation/index.js': [
+          'validate', 'ValidationContext', 'specifiedRules', 'FieldsOnCorrectTypeRule', 'FragmentsOnCompositeTypesRule', 'KnownArgumentNamesRule',
+          'KnownDirectivesRule', 'KnownFragmentNamesRule', 'KnownTypeNamesRule', 'LoneAnonymousOperationRule', 'NoFragmentCyclesRule',
+          'NoUndefinedVariablesRule', 'NoUnusedFragmentsRule', 'NoUnusedVariablesRule', 'OverlappingFieldsCanBeMergedRule',
+          'PossibleFragmentSpreadsRule', 'ProvidedRequiredArgumentsRule', 'ScalarLeafsRule', 'SingleFieldSubscriptionsRule', 'UniqueArgumentNamesRule',
+          'UniqueDirectivesPerLocationRule', 'UniqueFragmentNamesRule', 'UniqueInputFieldNamesRule', 'UniqueOperationNamesRule', 'UniqueVariableNamesRule',
+          'ValuesOfCorrectTypeRule', 'VariablesAreInputTypesRule', 'VariablesInAllowedPositionRule'
+        ],
+        'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/error/index.js': [
+          'GraphQLError', 'syntaxError', 'locatedError', 'printError', 'formatError'
+        ],
+        'bazel-out/darwin-fastbuild/bin/services/gql-api-gateway/bundle.es6/external/npm/node_modules/graphql/utilities/index.js': [
+          'getIntrospectionQuery', 'introspectionQuery', 'getOperationAST', 'getOperationRootType',  'introspectionFromSchema',
+          'buildClientSchema',  'buildASTSchema', 'buildSchema', 'getDescription', 'extendSchema', 'lexicographicSortSchema',
+          'printSchema', 'printType', 'printIntrospectionSchema', 'typeFromAST', 'valueFromAST', 'valueFromASTUntyped',
+          'astFromValue', 'TypeInfo', 'coerceValue', 'isValidJSValue', 'isValidLiteralValue', 'concatAST',  'separateOperations',
+          'stripIgnoredCharacters', 'isEqualType', 'isTypeSubTypeOf', 'doTypesOverlap', 'assertValidName',
+          'isValidNameError', 'BreakingChangeType', 'DangerousChangeType', 'findBreakingChanges', 'findDangerousChanges',
+          'findDeprecatedUsages'
         ]
       }
     }),
